@@ -20,7 +20,7 @@ public class Main {
             System.out.println(katt.toString());
         }
 
-    dbConnection.createTable();
+        dbConnection.updateCategory("Sprit", 1);
     }
 
 }
